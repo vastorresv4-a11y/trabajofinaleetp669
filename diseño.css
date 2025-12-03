@@ -1,0 +1,200 @@
+/* Fondo de imagen en el header + fondo oscuro y texto blanco */
+header {
+    background-image: url('imagenes/header_bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: #5717aa; /* fallback si no carga la imagen */
+    color: #fff;
+    box-shadow: 0 4px 12px rgba(85, 13, 253, 0.18);
+    border-radius: 0 0 20px 20px;
+    margin-bottom: 20px;
+    border-bottom: 4px solid #720ac7;
+}
+
+/* Título principal en header */
+header h1 {
+    color: #fff;
+    text-shadow: 1px 2px 8px rgba(137, 13, 253, 0.18);
+    font-size: 2.8rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+}
+
+/* Fondo de color en nav usando id */
+#mainNav {
+    background-color: #5717aa !important;
+    box-shadow: 0 2px 10px rgba(13,110,253,0.09);
+    border-radius: 0 0 18px 18px;
+}
+
+/* Footer con fondo de color y configuración de caja */
+#pie.footer {
+    background: #5717aa !important;
+    border-top: 4px solid #610dfd;
+    box-shadow: 0 -2px 10px rgba(85, 13, 253, 0.09);
+    border-radius: 18px 18px 0 0;
+    font-size: 1.08rem;
+}
+
+/* Configuración de cajas para main y secciones */
+main.container, section, .card {
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 4px 16px rgba(125, 13, 253, 0.07);
+    border: 1.5px solid #e3eafc;
+    padding: 28px;
+    margin-bottom: 28px;
+}
+
+/* Imágenes con sombra y borde redondeado */
+img {
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(13,110,253,0.13);
+    border: 3px solid #e3eafc;
+    margin-bottom: 18px;
+}
+
+/* Fuente general moderna y agradable */
+body {
+    font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif;
+    background: #eef2f7;
+    color: #222;
+}
+
+/* Títulos principales y secundarios */
+h1 {
+    font-size: 2.8rem;
+    color: #7d0dfd;
+    letter-spacing: 2px;
+    text-shadow: 1px 2px 8px rgba(13,110,253,0.08);
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 2.2rem;
+    color: #5c17aa;
+    margin-bottom: 22px;
+    border-bottom: 2px solid #910dfd;
+    padding-bottom: 8px;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: #690dfd;
+    margin-bottom: 16px;
+}
+
+/* Listas con iconos y espacio SOLO en main y section */
+main ul li::before,
+section ul li::before {
+    content: "•";
+    color: #610dfd;
+    font-weight: bold;
+    margin-right: 8px;
+    font-size: 1.2em;
+}
+
+/* Párrafos */
+p {
+    font-size: 1.15rem;
+    line-height: 1.8;
+    margin-bottom: 18px;
+}
+
+/* Palabras enfatizadas */
+em, strong {
+    color: #5c17aa;
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* Botón personalizado */
+.btn-primary {
+    background: linear-gradient(90deg, #750dfd 60%, #7b17aa 100%);
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 10px 28px;
+    box-shadow: 0 2px 8px rgba(137, 13, 253, 0.12);
+    border: none;
+    transition: background 0.2s;
+}
+.btn-primary:hover {
+    background: linear-gradient(90deg, #6f17aa 60%, #750dfd 100%);
+    color: #fff;
+}
+
+/* Cards Bootstrap personalizadas */
+.card {
+    border-radius: 16px;
+    border: 2px solid #e3eafc;
+    box-shadow: 0 2px 12px rgba(185, 13, 253, 0.09);
+}
+.card-title {
+    color: #550dfd;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.card-text {
+    color: #222;
+    font-size: 1.08rem;
+}
+
+/* Tablas */
+table {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(13,110,253,0.07);
+    margin-bottom: 24px;
+}
+th {
+    background: #e3eafc;
+    color: #6317aa;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+td {
+    background: #f8f9fa;
+    color: #222;
+    font-size: 1.05rem;
+}
+
+/* Responsive para imágenes y secciones */
+@media (max-width: 768px) {
+    header {
+        border-radius: 0 0 10px 10px;
+    }
+    main.container, section, .card {
+        padding: 14px;
+        border-radius: 10px;
+    }
+    img {
+        border-radius: 10px;
+        border-width: 2px;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    h3 {
+        font-size: 1.2rem;
+    }
+}
+
+/* Comentarios explicativos en el código CSS */
+/* - Se utiliza fondo de imagen en el header para dar impacto visual.
+   - Nav y Footer tienen fondo de color y sombra para destacar.
+   - Las cajas (main, section) tienen bordes redondeados y sombra para separar visualmente el contenido.
+   - Imágenes y botones tienen estilos para mejorar la experiencia de usuario.
+   - Se usan id y class para aplicar estilos específicos.
+*/
+/* Comentarios explicativos en el código CSS */
+/* - Se utiliza fondo de imagen en el header para dar impacto visual.
+   - Nav y Footer tienen fondo de color y sombra para destacar.
+   - Las cajas (main, section) tienen bordes redondeados y sombra para separar visualmente el contenido.
+   - Imágenes y botones tienen estilos para mejorar la experiencia de usuario.
+   - Se usan id y class para aplicar estilos específicos.
+*/

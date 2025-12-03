@@ -1,0 +1,176 @@
+<!-- aplicaciones.html
+Página dedicada a aplicaciones de IA: Perplexity AI, Notion AI, GitHub Copilot
+Incluye Bootstrap 5.3.8, navegación, tarjetas, comentarios y requisitos mínimos -->
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos y estilos -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aplicaciones y Usos de la IA</title>
+    <link rel="stylesheet" href="diseño.css" />
+    <!-- Bootstrap 5.3.8 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Header con fondo de imagen -->
+    <header>
+      <h1 class="text-center py-4">
+        Aplicaciones y Usos de la Inteligencia Artificial
+      </h1>
+    </header>
+
+    <!-- Barra de navegación -->
+    <nav id="mainNav" class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Inicio</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#menuNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menuNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="historia.html">Historia de la IA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="categorias.html">Categorías de IA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="aplicaciones.html">Aplicaciones y Usos</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Contenido principal -->
+    <main class="container my-5">
+      <!-- Título principal -->
+      <h2>Aplicaciones destacadas de IA</h2>
+      <p>
+        La Inteligencia Artificial se integra en herramientas que potencian la productividad, la investigación y el desarrollo de software. A continuación, se presentan tres ejemplos clave:
+      </p>
+      <div class="row">
+        <!-- Perplexity AI -->
+        <div class="col-md-4">
+          <div class="card mb-3">
+            <!-- AQUÍ VA LA IMAGEN DE PERPLEXITY AI -->
+            <img src="imagenes/Perplexity-logo.png" class="card-img-top" alt="Perplexity AI">
+            <div class="card-body">
+              <h5 class="card-title">Perplexity AI</h5>
+              <p class="card-text">
+                Perplexity AI es un asistente de búsqueda con IA que combina procesamiento de lenguaje natural y acceso en tiempo real a internet para ofrecer respuestas precisas y respaldadas por fuentes verificables.<br>
+                <strong>Características:</strong>
+                <ul>
+                  <li>Búsqueda en tiempo real y respuestas actualizadas.</li>
+                  <li>Transparencia: cada respuesta incluye referencias y enlaces.</li>
+                  <li>Interactividad continua y aprendizaje adaptativo.</li>
+                  <li>Organización del conocimiento en espacios personalizados.</li>
+                </ul>
+                Ideal para estudiantes, investigadores y profesionales que necesitan información confiable y rápida.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Notion AI -->
+        <div class="col-md-4">
+          <div class="card mb-3">
+            <!-- AQUÍ VA LA IMAGEN DE NOTION AI -->
+            <img src="imagenes/notion-logo-djaatpbyxoc0fhl4wn54m.webp" class="card-img-top" alt="Notion AI">
+            <div class="card-body">
+              <h5 class="card-title">Notion AI</h5>
+              <p class="card-text">
+                Notion AI es una extensión de la plataforma Notion que añade capacidades avanzadas de IA para transformar la creación y gestión de contenido digital.<br>
+                <strong>Características:</strong>
+                <ul>
+                  <li>Generación automática de textos y borradores.</li>
+                  <li>Mejora y resumen de documentos.</li>
+                  <li>Traducción y reescritura de textos.</li>
+                  <li>Sugerencias para tablas y automatización de tareas repetitivas.</li>
+                </ul>
+                Se integra en el espacio de trabajo y personaliza la ayuda según el contexto del usuario o equipo.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- GitHub Copilot -->
+        <div class="col-md-4">
+          <div class="card mb-3">
+            <!-- AQUÍ VA LA IMAGEN DE GITHUB COPILOT -->
+            <img src="imagenes/brand-github-copilot-exww8nc3pn8ymqt6bq0zm.webp" class="card-img-top" alt="GitHub Copilot">
+            <div class="card-body">
+              <h5 class="card-title">GitHub Copilot</h5>
+              <p class="card-text">
+                GitHub Copilot es una herramienta de IA para desarrolladores, integrada en IDEs como Visual Studio Code.<br>
+                <strong>Características:</strong>
+                <ul>
+                  <li>Autocompletado de código y generación desde descripciones en lenguaje natural.</li>
+                  <li>Asistencia en pruebas automatizadas y documentación técnica.</li>
+                  <li>Sugerencias para refactorización y soporte multilenguaje.</li>
+                  <li>Explicación de fragmentos de código y trabajo colaborativo con GitHub.</li>
+                </ul>
+                Copilot acelera el desarrollo, reduce errores y facilita el aprendizaje continuo en programación.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Tabla comparativa -->
+      <h3>Comparativa de Aplicaciones</h3>
+      <table class="table table-striped table-bordered">
+        <thead>
+          <tr>
+            <th>Aplicación</th>
+            <th>Principal Uso</th>
+            <th>Beneficio Destacado</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Perplexity AI</td>
+            <td>Búsqueda e investigación</td>
+            <td>Respuestas precisas y verificables</td>
+          </tr>
+          <tr>
+            <td>Notion AI</td>
+            <td>Productividad y gestión de contenido</td>
+            <td>Automatización y mejora de textos</td>
+          </tr>
+          <tr>
+            <td>GitHub Copilot</td>
+            <td>Desarrollo de software</td>
+            <td>Generación y explicación de código</td>
+          </tr>
+        </tbody>
+      </table>
+      <!-- Experiencia de usuario -->
+      <h3>Impacto en la experiencia de usuario</h3>
+      <p>
+        Estas aplicaciones de IA están diseñadas para ser intuitivas y personalizables, mejorando la eficiencia y la calidad del trabajo en distintos ámbitos. La integración con plataformas conocidas y la transparencia en los resultados son claves para una experiencia positiva.
+      </p>
+      <!-- Botón de volver al inicio -->
+      <a href="index.html" class="btn btn-primary my-3">Volver al inicio</a>
+    </main>
+
+    <!-- Footer -->
+    <footer id="pie" class="footer bg-dark text-white text-center py-3">
+      <p>
+        Valentino Vas torres - Prof. Jacqueline Lingua - Escuela General José de San Martín 669 - Taller de Informática
+      </p>
+    </footer>
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos y estilos -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inteligencia Artificial - Inicio</title>
+    <link rel="stylesheet" href="diseño.css" />
+    <!-- Bootstrap 5.3.8 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Header con fondo de imagen (configurado en CSS) -->
+    <header>
+      <h1 class="text-center py-4">Inteligencia Artificial</h1>
+    </header>
+
+    <!-- Barra de navegación con fondo de color y clases -->
+    <nav id="mainNav" class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Inicio</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#menuNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menuNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="historia.html">Historia de la IA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="categorias.html">Categorías de IA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="aplicaciones.html"
+                >Aplicaciones y Usos</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Contenido principal -->
+    <main class="container my-5">
+      <!-- ¿Qué es la IA? -->
+      <h2>¿Qué es la Inteligencia Artificial?</h2>
+      <p>
+        La Inteligencia Artificial es un campo que busca simular y replicar la
+        inteligencia humana. Su objetivo es crear máquinas o programas capaces
+        de pensar de manera indistinguible a un ser humano, como lo planteaba
+        Alan Turing con su famoso "test de Turing" en 1950.<br />
+        En su esencia, la IA se desarrolla principalmente a través de redes
+        neuronales artificiales, organizadas en
+        <strong>capas sucesivas</strong> inspiradas en la estructura del cerebro
+        humano. Cada capa procesa información y la pasa a la siguiente,
+        permitiendo aprender y abstraer atributos.<br />
+        El aprendizaje ocurre mediante retroalimentación o <em>feedback</em>,
+        ajustando conexiones neuronales para mejorar la precisión. Este
+        mecanismo se conoce como
+        <strong>aprendizaje por refuerzo</strong>.<br />
+        El campo de la IA ha crecido por avances tecnológicos como el
+        procesamiento de gráficos (GPU), permitiendo cálculos paralelos y el
+        manejo de grandes volúmenes de datos.<br />
+        En resumen, la IA busca emular la inteligencia humana en máquinas,
+        utilizando redes neuronales artificiales que aprenden de datos y
+        retroalimentación para identificar patrones y resolver problemas
+        complejos.
+      </p>
+      <p class="fst-italic">
+        Fuente: ARTIFICIAL. La nueva inteligencia y el contorno de lo humano.
+        Mariano Sigman y Santiago Bilinkis
+      </p>
+
+      <!-- Línea histórica de la IA -->
+      <h2>Línea Histórica del Desarrollo de la IA</h2>
+      <ol>
+        <li>
+          <strong>1938:</strong> El almirante Sir Hugh Sinclair concibe la
+          mansión de Bletchley Park, centro clave.
+        </li>
+        <li>
+          <strong>1939:</strong> Alan Turing desarrolla la máquina «Bombe» para
+          descifrar códigos nazis.
+        </li>
+        <li>
+          <strong>1948:</strong> Nace Turochamp, primer programa de ajedrez.
+        </li>
+        <li>
+          <strong>1949:</strong> Donald Hebb enuncia "neurons that fire together
+          wire together".
+        </li>
+        <li><strong>1950:</strong> Turing presenta el «test de Turing».</li>
+        <li><strong>1954:</strong> Fallece Alan Turing.</li>
+        <li>
+          <strong>1966:</strong> Joseph Weizenbaum programa Eliza, primer bot
+          conversacional.
+        </li>
+        <li>
+          <strong>1971:</strong> Se crea ARPANET y se envía el primer correo
+          electrónico.
+        </li>
+        <li>
+          <strong>Desde 1989:</strong> Hopfield y Yann Le Cun establecen bases
+          de redes profundas.
+        </li>
+        <li>
+          <strong>Últimos 20 años:</strong> Desarrollo de GPU para cálculos
+          paralelos.
+        </li>
+        <li><strong>2009:</strong> DeepMind comienza a entrenar IA en Go.</li>
+        <li>
+          <strong>2015:</strong> DeepMind lanza IA que gana el juego de Go.
+        </li>
+        <li><strong>2018:</strong> Se lanza el primer modelo de GPT.</li>
+        <li><strong>2019:</strong> Se lanza GPT-2.</li>
+        <li>
+          <strong>2020:</strong> IA en China para detectar patrones oculares.
+        </li>
+        <li><strong>2023:</strong> Se presenta GPT-4.</li>
+      </ol>
+      <p class="fst-italic">
+        Fuente: ARTIFICIAL. La nueva inteligencia y el contorno de lo humano.
+        Mariano Sigman y Santiago Bilinkis
+      </p>
+      <img
+        src="imagenes/Alan_turing_header.jpg"
+        alt="Historia de la IA"
+        class="img-fluid my-3 rounded shadow"
+      />
+
+      <!-- Leyes en Argentina sobre IA -->
+      <h2>¿Hay leyes en Argentina que regulen el uso de la IA?</h2>
+      <p>
+        En Argentina, al día de hoy (septiembre de 2025), no existe una ley
+        única y general que regule específicamente la inteligencia artificial.
+        El marco normativo vigente se apoya en la
+        <strong>Ley de Protección de Datos Personales (N° 25.326)</strong>, que
+        establece principios y obligaciones para el tratamiento de datos
+        personales, incluidas las aplicaciones de IA.<br />
+        Además, existen guías y lineamientos publicados por organismos públicos,
+        como la
+        <em
+          >Guía para entidades públicas y privadas en materia de transparencia y
+          protección de datos en el uso de la inteligencia artificial</em
+        >
+        (2025), que recomienda evaluar el impacto en privacidad, aplicar
+        transparencia y control de sesgos.<br />
+        El Congreso discute proyectos de ley para crear un marco regulatorio
+        integral, como el expediente 6156-D-2024 y el S-1368/2024, que proponen
+        registros, auditorías y obligaciones de transparencia.<br />
+        Actualmente, quienes desarrollan o usan IA deben cumplir principalmente
+        con la Ley 25.326 y seguir recomendaciones oficiales de transparencia y
+        protección de datos, mientras se sigue la evolución parlamentaria.
+      </p>
+      <ul>
+        <li>
+          <a
+            href="https://www.argentina.gob.ar/normativa/nacional/ley-25326-64790"
+            target="_blank"
+            >Ley 25.326</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.argentina.gob.ar/sites/default/files/guia_transparencia_proteccion_datos_ia.pdf"
+            target="_blank"
+            >Guía de transparencia y protección de datos en IA</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.hcdn.gob.ar/proyectos/proyecto.jsp?exp=6156-D-2024"
+            target="_blank"
+            >Proyecto de ley 6156-D-2024</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.argentina.gob.ar/sites/default/files/aaip-argentina-guia_para_usar_la_ia_de_manera_responsable.pdf"
+            target="_blank"
+            >Guía para usar IA de manera responsable</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.cippec.org/wp-content/uploads/2025/05/Guia-para-el-uso-de-IA-en-el-sector-publico-en-Argentina_2025.pdf"
+            target="_blank"
+            >Guía para el uso de IA en el sector público</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://fund.ar/wp-content/uploads/2023/11/Fundar_Guia-practica-para-el-desarrollo-etico-de-sistemas-basados-en-IA_CC-BY-NC-ND-4.0-3.pdf"
+            target="_blank"
+            >Guía práctica para el desarrollo ético de IA</a
+          >
+        </li>
+      </ul>
+      <img
+        src="imagenes/01JTG4B6NPEG5YHXESJ6RYYGGQ-hd.jpg"
+        alt="IA en Argentina"
+        class="img-fluid my-3 rounded shadow"
+        style="max-width: 400px; height: auto"
+      />
+
+      <!-- Introducción a las 3 categorías de IA elegidas -->
+      <h2>Categorías de Inteligencia Artificial</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-3">
+            <div class="card-body">
+              <h5 class="card-title">Productividad (Notion AI)</h5>
+              <p class="card-text">
+                La IA aplicada a la productividad ayuda a mejorar y agilizar
+                tareas de creación, organización y gestión de contenido digital.
+                Notion AI integra modelos de lenguaje que entienden el contexto
+                de proyectos y documentos, facilitando la generación automática
+                de textos, resúmenes y traducciones, optimizando procesos
+                creativos y administrativos.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-3">
+            <div class="card-body">
+              <h5 class="card-title">Investigación (Perplexity AI)</h5>
+              <p class="card-text">
+                La IA para investigación utiliza procesamiento avanzado de
+                lenguaje natural y acceso en tiempo real a grandes volúmenes de
+                datos para extraer y sintetizar información relevante.
+                Perplexity AI asiste a investigadores y profesionales,
+                respondiendo preguntas complejas y generando conocimiento fiable
+                a partir de fuentes verificables.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-3">
+            <div class="card-body">
+              <h5 class="card-title">Texto y Codificación (GitHub Copilot)</h5>
+              <p class="card-text">
+                Esta IA apoya a desarrolladores escribiendo, completando y
+                optimizando código mediante sugerencias automáticas. GitHub
+                Copilot interpreta el contexto del proyecto y el código
+                existente, aumentando la productividad y facilitando la
+                exploración de nuevas soluciones tecnológicas.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p>
+        Estos tres tipos de IA reflejan la diversidad y especialización de la
+        tecnología según las necesidades de usuarios e industrias, desde la
+        investigación avanzada y la gestión de la productividad hasta la
+        programación asistida por IA.
+      </p>
+    
+      <!-- Botón de volver al inicio -->
+      <a href="index.html" class="btn btn-primary my-3">Volver al inicio</a>
+    </main>
+
+    <!-- Footer con id y class para estilos en CSS -->
+    <footer id="pie" class="footer bg-dark text-white text-center py-3">
+      <p>
+        Valentino Vas torres - Prof. Jacqueline Lingua - Escuela General José de San
+        Martín 669 - Taller de Informática
+      </p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
